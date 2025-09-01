@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pinnacle</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pinnacle - Smart Investments</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
-      color: white;
       text-align: center;
-      margin: 0;
-      padding: 0;
+      background: linear-gradient(to right, #2b5876, #4e4376);
+      color: white;
     }
     .container {
-      padding: 100px 20px;
+      margin-top: 15%;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-    a {
-      display: inline-block;
-      padding: 15px 30px;
-      background: #2563eb;
+    button {
+      padding: 12px 24px;
+      margin: 15px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background: #ff9800;
       color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 1.2em;
+      cursor: pointer;
       transition: 0.3s;
     }
-    a:hover {
-      background: #1d4ed8;
+    button:hover {
+      background: #e68900;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>📈 Welcome to Pinnacle</h1>
-    <p>Smarter Investments, Made Simple.</p>
-    <a href="http://localhost:8501">Launch App 🚀</a>
+    <h1>Welcome to Pinnacle</h1>
+    <p>Your AI-powered personal investment guide</p>
+    <button onclick="window.location.href='http://localhost:8501'">Plan My Investment</button>
+    <button onclick="window.location.href='investments.html'">Explore Investments</button>
   </div>
 </body>
 </html>
